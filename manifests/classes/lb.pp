@@ -1,0 +1,3 @@
+class lb {
+    include haproxy
+}
