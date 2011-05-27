@@ -9,4 +9,7 @@
 	url = https://github.com/BenoitCattie/puppet-php5-fpm.git
 [submodule "modules/haproxy"]
 	path = modules/haproxy
-	url = https://github.com/rodjek/puppet-haproxy.git
+	url = https://github.com/vurbia/puppet-haproxy
+[submodule "modules/concat"]
+	path = modules/concat
+	url = https://github.com/ripienaar/puppet-concat.git

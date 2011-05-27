@@ -12,6 +12,6 @@ Vagrant::Config.run do |config|
   config.vm.define :lb do |config|
     config.vm.box = "maverick64"
     config.vm.network "33.33.33.11"
-    config.vm.host_name = "db.domain.test"
+    config.vm.host_name = "lb.domain.test"
   end
 end
