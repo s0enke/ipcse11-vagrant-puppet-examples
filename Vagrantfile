@@ -1,6 +1,6 @@
 Vagrant::configure(2) do |config|
 
-  config.vm.provision :puppet do |puppet|
+  config.vm.provision :puppet, :module_path => "modules" do |puppet|
     puppet.manifests_path = "manifests"
     puppet.manifest_file = "site.pp"
   end

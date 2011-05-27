@@ -1,5 +1,7 @@
 # /etc/puppet/manifests/site.pp
 
+import "classes/*"
+
 import "nodes.pp"
 
 Exec["apt-get-update"] -> Package <| |>
