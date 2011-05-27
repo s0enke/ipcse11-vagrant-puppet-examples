@@ -7,7 +7,7 @@ class web {
     nginx::fcgi::site {"awesomesite":
         root            => "/var/www/awesomesite",
         fastcgi_pass    => "127.0.0.1:9000",
-        server_name     => ["33.33.33.10"], # no dns!
+        server_name     => ["33.33.33.11"], # no dns!
     }    
 
     php5-fpm::config{"global":
