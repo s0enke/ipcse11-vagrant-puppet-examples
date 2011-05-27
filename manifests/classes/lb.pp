@@ -16,7 +16,8 @@ class lb {
     haproxy::frontend {"fe_web":
         name => "fe_web",
         ip => "33.33.33.10", #FIXME: no hardcoded ip
-        default_backend => "be_web"
+        default_backend => "be_web",
+        options => [ "httplog" ]
     } 
 
 }

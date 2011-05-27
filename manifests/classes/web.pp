@@ -5,7 +5,7 @@ class web {
     include nginx::fcgi
     include php5-fpm
     nginx::fcgi::site {"awesomesite":
-        root            => "/var/www/awesomesite",
+        root            => "/vagrant/myproject/document_root/",
         fastcgi_pass    => "127.0.0.1:9000",
         server_name     => [$server_name], # no dns!
     }    
