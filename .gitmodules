@@ -4,3 +4,12 @@
 [submodule "modules/php5-fpm"]
 	path = modules/php5-fpm
 	url = https://github.com/BenoitCattie/puppet-php5-fpm.git
+[submodule "modules/haproxy"]
+	path = modules/haproxy
+	url = https://github.com/vurbia/puppet-haproxy
+[submodule "modules/concat"]
+	path = modules/concat
+    url = https://github.com/ripienaar/puppet-concat.git
+[submodule "modules/apt"]
+	path = modules/apt
+    url = https://github.com/evolvingweb/puppet-apt.git
